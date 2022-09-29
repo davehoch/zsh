@@ -9,3 +9,7 @@ export EDITOR=code
 
 #fix for Docker problem:  https://github.com/docker/for-mac/issues/770
 #export DOCKER_HOST=tcp://localhost:1234
+
+# less syntax highlighting + source-highlight installation
+export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
+export LESS=' -R'
