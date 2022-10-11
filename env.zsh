@@ -11,7 +11,7 @@ export EDITOR=code
 #export DOCKER_HOST=tcp://localhost:1234
 
 # less syntax highlighting + source-highlight installation
-# -R Repaint the screen, discarding any buffered input.  Not sure why this is needed with the source-highlighting.
-# -x4 sets tabs to 4 spaces
+# https://www.gnu.org/software/src-highlite/
+# This also looks promising: http://www.andre-simon.de/doku/highlight/en/highlight.php
 export LESSOPEN="| /usr/local/bin/src-hilite-lesspipe.sh %s"
-export LESS=' -R -x4'
+export LESS=' --RAW-CONTROL-CHARS --tabs=4'
