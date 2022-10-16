@@ -5,3 +5,5 @@ source ~/.config/zsh/prompt.zsh
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+bindkey -s '^o' 'lfcd\n'  # ctrl-O
