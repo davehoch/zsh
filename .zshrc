@@ -1,6 +1,7 @@
 source ~/.config/zsh/env.zsh
 source ~/.config/zsh/options.zsh
 source ~/.config/zsh/aliases.zsh
+source ~/.config/zsh/history.zsh
 source ~/.config/zsh/prompt.zsh
 
 # Load zsh-syntax-highlighting; should be last.
