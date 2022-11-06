@@ -9,5 +9,7 @@ tabs -4
 
 bindkey -s '^o' 'lfcd\n'  # ctrl-O
 
+source  /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 # Load zsh-syntax-highlighting; should be last.
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
