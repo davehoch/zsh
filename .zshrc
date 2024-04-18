@@ -18,5 +18,6 @@ bindkey -s '^o' 'lfcd\n'  # ctrl-O
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 source  /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+# https://github.com/zsh-users/zsh-syntax-highlighting
 # Load zsh-syntax-highlighting; should be last.
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
