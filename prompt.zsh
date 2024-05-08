@@ -62,7 +62,7 @@ setopt PROMPT_SUBST
 PROMPT_CHAR=$'⚡'
 # local PROMPT_CHAR=$'⮕ '
 # local PROMPT_CHAR=$'👉'
-PROMPT='%F{059}$USER@%m%f %F{029}%~%f $(git_info)
+PROMPT='%F{029}%~%f $(git_info)
 %F{059}${PROMPT_CHAR}%f'
 
 # ZSH_DISABLE_COMPFIX="true"  #This doesn't seem to work

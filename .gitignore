@@ -1,1 +1,4 @@
 .zsh_history
+
+# this file is for machine specif settings and should not be checked in
+zsh_local.zsh

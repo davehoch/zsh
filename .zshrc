@@ -4,6 +4,9 @@ source ~/.config/zsh/aliases.zsh
 source ~/.config/zsh/history.zsh
 source ~/.config/zsh/prompt.zsh
 
+# Now load machine specific stuff.  This file SHOULD NOT be committed to git.
+source ~/.config/zsh/zsh_local.zsh
+
 # This seems to mostly affect output from tools like maven
 tabs -4
 
@@ -16,7 +19,7 @@ bindkey -s '^o' 'lfcd\n'  # ctrl-O
 
 # https://github.com/zsh-users/zsh-autosuggestions
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-source  /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # https://github.com/zsh-users/zsh-syntax-highlighting
 # Load zsh-syntax-highlighting; should be last.
